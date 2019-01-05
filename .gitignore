@@ -45,3 +45,4 @@ phpunit.phar
 /.idea
 Dockerfile
 Vagrantfile
+vendor/

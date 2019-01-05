@@ -24,10 +24,16 @@ return [
         ],
         'sample' => [
             'class' => 'kouosl\sample\Module'   // here is our v1 modules
+        ],
+        'iletisim' => [
+            'class' => 'kouosl\iletisim\Module',
         ]
 
     ],
     'components' => [
+        'authManager' => [
+'class' => 'yii\rbac\DbManager',
+],
         'request' => [
             'csrfParam' => '_csrf-backend',
 			'class' => 'kouosl\base\components\Request',

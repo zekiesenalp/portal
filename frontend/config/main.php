@@ -25,8 +25,14 @@ return [
         'sample' => [
             'class' => 'kouosl\sample\Module'   // here is our v1 modules
         ],
+        'iletisim' => [
+            'class' => 'kouosl\iletisim\Module',
+        ]
     ],
     'components' => [
+    	'authManager' => [
+'class' => 'yii\rbac\DbManager',
+],
         'request' => [
 			// !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'Ws_5fvKwQV0EaWpFgpgU0x7aK5BsKfPY',

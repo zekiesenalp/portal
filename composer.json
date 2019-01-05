@@ -18,6 +18,12 @@
             "type": "vcs",
             "url": "https://github.com/kouosl/portal-base.git"
         },
+
+        {
+            "type": "vcs",
+            "url": "https://github.com/zekiesenalp/portal-iletisim.git"
+        },
+
         {
             "type": "vcs",
             "url": "https://github.com/kouosl/portal-theme.git"
@@ -53,7 +59,8 @@
         "kouosl/portal-site": "dev-develop",
         "kouosl/portal-user": "dev-develop",
         "kouosl/portal-menu": "dev-develop",
-        "kouosl/portal-content": "dev-develop"
+        "kouosl/portal-content": "dev-develop",
+        "kouosl/portal-iletisim": "dev-develop"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
